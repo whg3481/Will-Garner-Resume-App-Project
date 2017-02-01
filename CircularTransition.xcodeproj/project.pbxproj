@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B21643A01E39A512007310A0 /* 300New Centuri Advisors Logo No Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B216439F1E39A512007310A0 /* 300New Centuri Advisors Logo No Background.png */; };
+		B21643A21E3B85CB007310A0 /* AntiGravityStudiosLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B21643A11E3B85CB007310A0 /* AntiGravityStudiosLogo.png */; };
+		B23A1C4C1E3087FD00E5D8FA /* mobileMafiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A1C4B1E3087FD00E5D8FA /* mobileMafiaVC.swift */; };
+		B23A1C4E1E30882E00E5D8FA /* AntiGVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A1C4D1E30882E00E5D8FA /* AntiGVC.swift */; };
+		B257838C1E3717D5005F62BB /* AntiGravityStudiosLogo grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B257838B1E3717D5005F62BB /* AntiGravityStudiosLogo grey.png */; };
+		B257838E1E3717F2005F62BB /* Mobile Mafia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B257838D1E3717F2005F62BB /* Mobile Mafia.jpg */; };
+		B267D06E1E22867600B6C699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267D06D1E22867600B6C699 /* AppDelegate.swift */; };
+		B267D0701E22867600B6C699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267D06F1E22867600B6C699 /* ViewController.swift */; };
+		B267D0731E22867600B6C699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B267D0711E22867600B6C699 /* Main.storyboard */; };
+		B267D0751E22867600B6C699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B267D0741E22867600B6C699 /* Assets.xcassets */; };
+		B267D0781E22867600B6C699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B267D0761E22867600B6C699 /* LaunchScreen.storyboard */; };
+		B267D0801E22879600B6C699 /* File_000 (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B267D07F1E22879600B6C699 /* File_000 (1).jpeg */; };
+		B267D0821E22921F00B6C699 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267D0811E22921F00B6C699 /* SecondViewController.swift */; };
+		B267D0841E22952100B6C699 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267D0831E22952100B6C699 /* CircularTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B216439F1E39A512007310A0 /* 300New Centuri Advisors Logo No Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "300New Centuri Advisors Logo No Background.png"; sourceTree = "<group>"; };
+		B21643A11E3B85CB007310A0 /* AntiGravityStudiosLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AntiGravityStudiosLogo.png; sourceTree = "<group>"; };
+		B23A1C4B1E3087FD00E5D8FA /* mobileMafiaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mobileMafiaVC.swift; sourceTree = "<group>"; };
+		B23A1C4D1E30882E00E5D8FA /* AntiGVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AntiGVC.swift; sourceTree = "<group>"; };
+		B257838B1E3717D5005F62BB /* AntiGravityStudiosLogo grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AntiGravityStudiosLogo grey.png"; sourceTree = "<group>"; };
+		B257838D1E3717F2005F62BB /* Mobile Mafia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mobile Mafia.jpg"; sourceTree = "<group>"; };
+		B267D06A1E22867600B6C699 /* CircularTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B267D06D1E22867600B6C699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B267D06F1E22867600B6C699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B267D0721E22867600B6C699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B267D0741E22867600B6C699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B267D0771E22867600B6C699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B267D0791E22867600B6C699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B267D07F1E22879600B6C699 /* File_000 (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "File_000 (1).jpeg"; sourceTree = "<group>"; };
+		B267D0811E22921F00B6C699 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B267D0831E22952100B6C699 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B267D0671E22867600B6C699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B267D0611E22867600B6C699 = {
+			isa = PBXGroup;
+			children = (
+				B267D06C1E22867600B6C699 /* CircularTransition */,
+				B267D06B1E22867600B6C699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B267D06B1E22867600B6C699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B267D06A1E22867600B6C699 /* CircularTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B267D06C1E22867600B6C699 /* CircularTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B267D06D1E22867600B6C699 /* AppDelegate.swift */,
+				B267D06F1E22867600B6C699 /* ViewController.swift */,
+				B267D0711E22867600B6C699 /* Main.storyboard */,
+				B23A1C4B1E3087FD00E5D8FA /* mobileMafiaVC.swift */,
+				B23A1C4D1E30882E00E5D8FA /* AntiGVC.swift */,
+				B267D0831E22952100B6C699 /* CircularTransition.swift */,
+				B267D0811E22921F00B6C699 /* SecondViewController.swift */,
+				B267D0741E22867600B6C699 /* Assets.xcassets */,
+				B257838B1E3717D5005F62BB /* AntiGravityStudiosLogo grey.png */,
+				B257838D1E3717F2005F62BB /* Mobile Mafia.jpg */,
+				B21643A11E3B85CB007310A0 /* AntiGravityStudiosLogo.png */,
+				B216439F1E39A512007310A0 /* 300New Centuri Advisors Logo No Background.png */,
+				B267D07F1E22879600B6C699 /* File_000 (1).jpeg */,
+				B267D0761E22867600B6C699 /* LaunchScreen.storyboard */,
+				B267D0791E22867600B6C699 /* Info.plist */,
+			);
+			path = CircularTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B267D0691E22867600B6C699 /* CircularTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B267D07C1E22867600B6C699 /* Build configuration list for PBXNativeTarget "CircularTransition" */;
+			buildPhases = (
+				B267D0661E22867600B6C699 /* Sources */,
+				B267D0671E22867600B6C699 /* Frameworks */,
+				B267D0681E22867600B6C699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularTransition;
+			productName = CircularTransition;
+			productReference = B267D06A1E22867600B6C699 /* CircularTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B267D0621E22867600B6C699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Will Garner";
+				TargetAttributes = {
+					B267D0691E22867600B6C699 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SK2ZM3X36D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B267D0651E22867600B6C699 /* Build configuration list for PBXProject "CircularTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B267D0611E22867600B6C699;
+			productRefGroup = B267D06B1E22867600B6C699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B267D0691E22867600B6C699 /* CircularTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B267D0681E22867600B6C699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B267D0781E22867600B6C699 /* LaunchScreen.storyboard in Resources */,
+				B267D0751E22867600B6C699 /* Assets.xcassets in Resources */,
+				B257838C1E3717D5005F62BB /* AntiGravityStudiosLogo grey.png in Resources */,
+				B21643A21E3B85CB007310A0 /* AntiGravityStudiosLogo.png in Resources */,
+				B257838E1E3717F2005F62BB /* Mobile Mafia.jpg in Resources */,
+				B21643A01E39A512007310A0 /* 300New Centuri Advisors Logo No Background.png in Resources */,
+				B267D0801E22879600B6C699 /* File_000 (1).jpeg in Resources */,
+				B267D0731E22867600B6C699 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B267D0661E22867600B6C699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B267D0821E22921F00B6C699 /* SecondViewController.swift in Sources */,
+				B267D0701E22867600B6C699 /* ViewController.swift in Sources */,
+				B267D06E1E22867600B6C699 /* AppDelegate.swift in Sources */,
+				B267D0841E22952100B6C699 /* CircularTransition.swift in Sources */,
+				B23A1C4E1E30882E00E5D8FA /* AntiGVC.swift in Sources */,
+				B23A1C4C1E3087FD00E5D8FA /* mobileMafiaVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B267D0711E22867600B6C699 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B267D0721E22867600B6C699 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B267D0761E22867600B6C699 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B267D0771E22867600B6C699 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B267D07A1E22867600B6C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B267D07B1E22867600B6C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B267D07D1E22867600B6C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SK2ZM3X36D;
+				INFOPLIST_FILE = CircularTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravitystudios.CircularTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B267D07E1E22867600B6C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SK2ZM3X36D;
+				INFOPLIST_FILE = CircularTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravitystudios.CircularTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B267D0651E22867600B6C699 /* Build configuration list for PBXProject "CircularTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B267D07A1E22867600B6C699 /* Debug */,
+				B267D07B1E22867600B6C699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B267D07C1E22867600B6C699 /* Build configuration list for PBXNativeTarget "CircularTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B267D07D1E22867600B6C699 /* Debug */,
+				B267D07E1E22867600B6C699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B267D0621E22867600B6C699 /* Project object */;
+}

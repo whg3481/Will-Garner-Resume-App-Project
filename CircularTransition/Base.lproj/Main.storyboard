@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CircularTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background BG" translatesAutoresizingMaskIntoConstraints="NO" id="pwN-o3-In2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="So8-QO-r5x">
+                                <rect key="frame" x="16" y="547" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BvE-gw-6dA" kind="show" identifier="1" id="mPf-Sh-VF4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ah5-rx-xIC">
+                                <rect key="frame" x="137" y="547" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5bn-Ic-5t4" kind="show" id="ZRf-Iu-oaS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2gY-WW-HeT">
+                                <rect key="frame" x="259" y="547" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" red="0.66924291481115694" green="0.87449071972566927" blue="0.99343502521514893" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yJX-kM-KUc" kind="show" identifier="3" id="kTP-LE-sAE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="www.SportyGarner.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMr-Gx-BEp">
+                                <rect key="frame" x="16" y="105" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Will 'Sporty' Garner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ue-AY-JRK">
+                                <rect key="frame" x="16" y="36" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="38"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" image="Mobile Mafia.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="92L-xP-SHi">
+                                <rect key="frame" x="152" y="562" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AntiGravityStudiosLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="zYN-Na-0mv">
+                                <rect key="frame" x="269" y="557" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Entrepreneur | iOS Engineer | Visionary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KjV-lh-TMN">
+                                <rect key="frame" x="16" y="76" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="16"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="300New Centuri Advisors Logo No Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="hbk-Xy-zFs">
+                                <rect key="frame" x="28" y="557" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="antiGBtn" destination="2gY-WW-HeT" id="6DO-xn-ong"/>
+                        <outlet property="menuBtn" destination="So8-QO-r5x" id="j2J-3G-hLb"/>
+                        <outlet property="mobileMafiaBtn" destination="ah5-rx-xIC" id="kni-uc-uDq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184.80000000000001" y="96.7016491754123"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="1x0-65-dda">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BvE-gw-6dA" customClass="SecondViewController" customModule="CircularTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hm3-PA-WXN"/>
+                        <viewControllerLayoutGuide type="bottom" id="KNP-PO-fr9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oGh-zQ-4O8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSB-PD-weH">
+                                <rect key="frame" x="164" y="64" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissSecondVC:" destination="BvE-gw-6dA" eventType="touchUpInside" id="Rlh-R5-Jtf"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="'The Beginning of Something Special'" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ctj-1W-W0h">
+                                <rect key="frame" x="18" y="20" width="346" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="75"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="300New Centuri Advisors Logo No Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="hqS-eW-yuc">
+                                <rect key="frame" x="18" y="58" width="118" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k6E-0i-0ez">
+                                <rect key="frame" x="0.0" y="127" width="375" height="585"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <string key="text">New Centuri Advisors is the result of evolution of my journey as an Entrepreneur. What began as me flipping homes in 2004 in the East Houston area literally took me across the world and back as a custom Home Builder and Real Estate Broker over Garner Group Realty &amp; Development. In 2007 &amp; 08' I was awarded the prestigious 'Aggie 100' award as being ranked the #5 out of 100 companies owned by former students of Texas A&amp;M! Yea... I know not bad for a kid from the East Side. But 2009 hit 'The Recession' and that set back only prepared me for the major comeback because it taught me how to evolve, reinvent and reinvest in myself without fear. So In 2011 after going back to complete my M.B.A. I decided to diversify into Insurance in order to bring stability to my business in the face of the volatile and cyclical Real Estate market. So I began UNIDA Insurance &amp; Tax which served as the foundation that was needed financially to my business and all of my Big, Hairy and Audacious Ideas that seem to spawn from my brain. Of course I didn't leave real estate alone so while growing UNIDA I still worked with clients that were looking to buy and sale properties here and there but it wasn't the same. The Recession of 2009 really introduced me to the school of hardknocks and humbled the hell out of me. It did give me insight and wisdom though as well as it threw gasoline on the already burning desire that I had inside to win. You wanna see someone who will never be detered but only determined to succeed? Touch my home button at the top of this View Controller I programmed and look at the man with those cool looking Snapchat Spectacles on. 2014 is when New Centuri began when I decided to just merge both and market under the one umbrella with one message and one mission. Which was to be the best for our customers no matter which foot we put forward. The entrepreneurial spirit is amazing where it will take you and the journey in itself can never be predicted or guaranteed, the only thing that is for sure is that once you decide to take that 1st step out on faith your life will never be the same. Dream Big. Think Smart. Innovate. Repeat. -Will H. Garner</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                        </accessibility>
+                    </view>
+                    <connections>
+                        <outlet property="dismissBtn" destination="dSB-PD-weH" id="Mq2-s2-LbO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PFS-xM-qbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024.8" y="-170.46476761619192"/>
+        </scene>
+        <!--Mobile MafiaVC-->
+        <scene sceneID="Qbh-x9-I4Y">
+            <objects>
+                <viewController id="5bn-Ic-5t4" customClass="mobileMafiaVC" customModule="CircularTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O2E-CE-Avr"/>
+                        <viewControllerLayoutGuide type="bottom" id="nnu-q8-gpb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xsH-3K-HRC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpO-42-uEQ">
+                                <rect key="frame" x="164" y="64" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="mmBtn:" destination="5bn-Ic-5t4" eventType="touchUpInside" id="L6M-bH-qgU"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oyO-Hd-KK5">
+                                <rect key="frame" x="0.0" y="136" width="375" height="531"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2016 was a very good year for New Centuri, we were finally back on track with our Real Estate business and the Insurance division finally seemed to be operating in the black. But my thirst for knowledge seems to be insatiable which is why I decided to take my brain back to school and ended up at a Boot Camp called the Iron Yard where I graduated from a  12 week intensive training in iOS Development. This experience was truly one of the best decisions I have ever made in my life. The difficulty level week in and week out trying to wrap my brain around protocols and delegates almost drove me insane but there was no way I would break. At the Iron Yard we studied Objective-C and Swift which has become the default language for iOS development. In our mobile engineering cohort our group was small but we formed a brotherhood bond where we rallied for each other and truly is special in itself. Fredrick Ohen, Colby Gatte, Reme, Khalid Mohammed and myself became known as the Mobile Mafia. For my final project our Professor 'Don' Azam Mohammad persuaded me to focus on doing my final project in Real Estate. From there FLPPD was born and presented at Demo Day at Houston Station. FLPPD is scheduled for release on iOS in March of 2017.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mobile Mafia.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wnr-TY-rPd">
+                                <rect key="frame" x="12" y="36" width="144" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="mmDismissBtn" destination="NpO-42-uEQ" id="Xpv-tX-lEt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UH5-za-zAV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024.8" y="487.10644677661173"/>
+        </scene>
+        <!--AntiGVC-->
+        <scene sceneID="31T-lw-Iri">
+            <objects>
+                <viewController id="yJX-kM-KUc" customClass="AntiGVC" customModule="CircularTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="46y-yj-tqU"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Nz-mL-mcS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vim-yu-vbr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLn-OO-cuv">
+                                <rect key="frame" x="164" y="64" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="0.11372549019607843" green="0.69803921568627447" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="antiGdismiss:" destination="yJX-kM-KUc" eventType="touchUpInside" id="JPW-aR-Nn5"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9rC-bz-D6J">
+                                <rect key="frame" x="0.0" y="127" width="375" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11372549019607843" green="0.69803921568627447" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">So my entrepreneurial bug bit me again in 2014 when I started reading articles online about the world of app Development and how companies that developed hit games such as Candy Crush and Flappy Birds were killing the app store with millions of downloads. That's when the light bulb went off and I told myself how cool would it be to actually create something that in some way shape or form would impact people across the WORLD!!! This was the beginning of Anti-Gravity Studios. I began diving into tutorials about how to code online and trying to scour the internet looking for resources about how to  develop games initially. After a year of research and trial and error I released my 1st project on iOS an endless platform game called Duck McGruff for $.99 and the 1st day I had over 80 downloads!! I thought to myself this is the secret sauce! LOL. To my surprise the work that was ahead was far more than I anticipated. The cool thing to date Duck McGruff has over 40k downloads and counting from all over the globe. In 2016 is where I decided to take it to the next level and since I've teamed up with another developer and we've put out a few other projects including the TOSTLIFE app which is a social gifting app and our current project FLPPD which is going to take the Real Estate Investing Industry by storm. </mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AntiGravityStudiosLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kvz-8X-4Xr">
+                                <rect key="frame" x="16" y="28" width="128" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.11372549019607843" green="0.69803921568627447" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="antiGdismiss" destination="GLn-OO-cuv" id="ozu-Ha-jp5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N8Y-bd-jiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024.8" y="1357.8710644677662"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="300New Centuri Advisors Logo No Background.png" width="300" height="182"/>
+        <image name="AntiGravityStudiosLogo.png" width="505" height="362"/>
+        <image name="Background BG" width="1931" height="1931"/>
+        <image name="Mobile Mafia.jpg" width="904" height="892"/>
+    </resources>
+</document>
